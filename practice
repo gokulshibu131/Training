@@ -1,0 +1,11 @@
+n=int(input("Enter total no. of monkeys:"))
+k=int(input("Enter total no. of bananas:"))
+j=int(input("Enter total no. of peanuts:"))
+m=int(input("Number of Eatable bananas by single monkey:"))
+p=int(input("Number of Eatable peanuts by single monkey:"))
+a=(m+k-1)//k
+b=(p+j-1)//j
+eaten=a+b
+if eaten > n:
+   eaten = n
+   print("Number of monkeys left on the tree:",n - eaten
